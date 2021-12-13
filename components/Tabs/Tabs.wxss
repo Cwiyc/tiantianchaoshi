@@ -1,0 +1,16 @@
+/* .tabs{} */
+.table_title{
+  display: flex;
+}
+.title_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx 0;
+  flex: 1;
+}
+.active{
+  color:var(--themeColor);
+  border-bottom: solid currentColor 5rpx;
+}
+/* .table_content{} */
